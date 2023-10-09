@@ -1,0 +1,112 @@
+body {
+  background-image: url(background.jpg);
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(8, 8, 8, 0.1);
+}
+
+header  {
+  text-align:center;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+.specified {
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-color: rgb(5, 5, 5);
+}
+
+h1 {
+  margin: 0;
+  font-size: 36px;
+  color: #333;
+}
+
+p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.contact h2,
+.education h2,
+.experience h2,
+.skills h2,
+.languages h2 {
+  border-bottom: 2px solid #333;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills ul li {
+  margin-bottom: 8px;
+  color: #555;
+}
+
+/* Additional Styles */
+.contact p:first-child {
+  font-weight: bold;
+}
+
+.contact p:last-child,
+.skills ul li:last-child {
+  margin-bottom: 0;
+}
+
+.experience p:last-child {
+  margin-bottom: 0;
+}
+
+/* Link Styles */
+a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #f50d0d;
+}
+
+/* Background Colors and Hover Effects */
+.container  {
+  background-color: #070707;
+}
+
+header {
+  background-color: #9cc5c1;
+  color: rgb(12, 12, 12);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.contact, .education, .experience, .skills, .projects, .certifications, .interests, .objective, .languages, .activities,
+.achievements {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px 0px rgba(233, 7, 7, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.contact:hover, .education:hover, .experience:hover, .skills:hover {
+  box-shadow: 0px 5px 10px 0px rgba(12, 12, 12, 0.2);
+}
