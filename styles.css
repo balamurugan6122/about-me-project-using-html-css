@@ -45,7 +45,7 @@ p {
 .languages h2 {
   border-bottom: 2px solid #333;
   padding-bottom: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 2px;
   font-size: 24px;
   color: #333;
 }
@@ -94,19 +94,19 @@ header {
   background-color: #9cc5c1;
   color: rgb(12, 12, 12);
   padding: 20px;
-  border-radius: 5px;
+  border-radius: 50px;
 }
 
 .contact, .education, .experience, .skills, .projects, .certifications, .interests, .objective, .languages, .activities,
 .achievements {
-  background-color: #ffffff;
+  background-color: white;
   padding: 20px;
   margin-bottom: 20px;
-  border-radius: 5px;
-  box-shadow: 0px 2px 5px 0px rgba(233, 7, 7, 0.1);
+  border-radius: 25px;
+  box-shadow: 0px 2px 5px 0px rgba(41, 7, 233, 0.1);
   transition: box-shadow 0.3s ease;
 }
 
 .contact:hover, .education:hover, .experience:hover, .skills:hover {
-  box-shadow: 0px 5px 10px 0px rgba(12, 12, 12, 0.2);
+  box-shadow: 0px 5px 10px 0px rgba(8, 8, 8, 0.2);
 }
